@@ -37,6 +37,13 @@ public class LowestCommonAncestor {
 		}
 		
 	}
+	
+	/**
+	 *				4
+	 *            5   6
+	 *           2 3  
+	 * @return
+	 */
 
 	private static Treenode GetSampleTree() {
 		return new Treenode(4, 
