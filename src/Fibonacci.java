@@ -20,6 +20,11 @@ public class Fibonacci {
 
 	}
 
+	/**
+	 * Note there is a sub linear solution to find the nth fibonacci using matrix multiplcation. 
+	 * @param i
+	 * @return
+	 */
 	private int getntthfib(int i) {
 		if (i < 1){
 			return 0;
